@@ -24,3 +24,12 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
+```
+
+### frontend (React.js)
+```bash
+cd snack-frontend
+npm install
+npm start
+
+
